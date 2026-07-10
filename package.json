@@ -1,10 +1,18 @@
 {
-  "name": "@violet-yuan/mastra-nest-fastify",
+  "name": "@violetflux/mastra-nest-fastify",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@11.1.3",
   "description": "NestJS integration for the official Mastra Fastify server adapter",
   "license": "MIT",
+  "homepage": "https://github.com/violetflux/mastra-nest-fastify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violetflux/mastra-nest-fastify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/violetflux/mastra-nest-fastify/issues"
+  },
   "keywords": [
     "mastra",
     "nestjs",
@@ -24,6 +32,7 @@
   "types": "dist/index.d.ts",
   "files": [
     "LICENSE",
+    "README.en.md",
     "README.md",
     "dist"
   ],
