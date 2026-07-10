@@ -1,11 +1,11 @@
-# @violet/mastra-nest-fastify
+# @violet-yuan/mastra-nest-fastify
 
 在 NestJS Fastify 应用中挂载官方 `@mastra/fastify` Server Adapter 的社区集成包。
 
 ## 安装
 
 ```bash
-pnpm add @violet/mastra-nest-fastify
+pnpm add @violet-yuan/mastra-nest-fastify
 ```
 
 消费项目需要提供兼容版本的 `@mastra/core`、NestJS、Fastify、`reflect-metadata` 和 `rxjs`。
@@ -14,7 +14,7 @@ pnpm add @violet/mastra-nest-fastify
 
 ```typescript
 import { Module } from '@nestjs/common'
-import { MastraFastifyModule } from '@violet/mastra-nest-fastify'
+import { MastraFastifyModule } from '@violet-yuan/mastra-nest-fastify'
 import { mastra } from './mastra'
 
 @Module({

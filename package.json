@@ -1,5 +1,5 @@
 {
-  "name": "@violet/mastra-nest-fastify",
+  "name": "@violet-yuan/mastra-nest-fastify",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@11.1.3",
