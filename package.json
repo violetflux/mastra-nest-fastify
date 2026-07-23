@@ -1,7 +1,7 @@
 {
   "name": "@violetflux/mastra-nest-fastify",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@11.1.3",
   "description": "NestJS integration for the official Mastra Fastify server adapter",
   "license": "MIT",

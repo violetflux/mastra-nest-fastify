@@ -8,7 +8,6 @@ import { MastraServer } from '@mastra/fastify'
 import {
   Inject,
   Injectable,
-  Logger,
 } from '@nestjs/common'
 import { HttpAdapterHost } from '@nestjs/core'
 import { MASTRA_FASTIFY_OPTIONS } from './constants'
@@ -16,7 +15,6 @@ import { MASTRA_FASTIFY_OPTIONS } from './constants'
 /** 管理 Mastra Fastify Adapter 的 Nest 生命周期 */
 @Injectable()
 export class MastraFastifyService implements OnModuleInit, OnApplicationShutdown {
-  private readonly _logger = new Logger(MastraFastifyService.name)
   private _app?: FastifyInstance
   private _server?: MastraServer
   private _shutdown = false
@@ -63,8 +61,6 @@ export class MastraFastifyService implements OnModuleInit, OnApplicationShutdown
         server,
       })
     })
-
-    this._logger.log('Mastra routes mounted on NestJS Fastify')
   }
 
   /** 关闭 Nest 应用时释放 Mastra 资源 */
